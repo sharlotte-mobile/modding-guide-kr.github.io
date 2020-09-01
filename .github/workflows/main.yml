@@ -29,4 +29,4 @@ jobs:
         run: |
           pwd
           emacs --batch --eval "(progn (package-initialize) (package-refresh-contents) (package-install 'org))"
-          emacs --batch --no-init-file --load ./.github/workflows/publish.el --funcall org-publish-all
+          emacs --batch --no-init-file --load /home/runner/work/sharlotte-mobile.github.io/sharlotte-mobile.github.io/.github/workflows/publish.el --funcall org-publish-all
