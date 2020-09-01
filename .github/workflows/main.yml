@@ -27,6 +27,6 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a EMACS
         run: |
-          pwd
+          ls
           emacs --batch --eval "(progn (package-initialize) (package-refresh-contents) (package-install 'org))"
           emacs --batch --no-init-file --load /home/runner/work/sharlotte-mobile.github.io/sharlotte-mobile.github.io/.github/workflows/publish.el --funcall org-publish-all
