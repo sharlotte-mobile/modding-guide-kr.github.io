@@ -24,7 +24,7 @@
 
 #+STARTUP: org-table-shrink
 
-이슈, 제안, PR를 추천할 깃헙 주소: https://github.com/sharlotte-mobile/mindustry-modding
+이슈, 제안, PR를 추천할 깃헙 주소: https://github.com/sharlotte-mobile/sharlotte-mobile.github.io
 
 :END:
 
