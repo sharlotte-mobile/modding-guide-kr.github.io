@@ -27,6 +27,6 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a EMACS
         run: |
-          cat index.sh | /bin/sh
+          pwd
           emacs --batch --eval "(progn (package-initialize) (package-refresh-contents) (package-install 'org))"
-          emacs --batch --no-init-file --load publish.el --funcall org-publish-all
+          emacs --batch --no-init-file --load ./publish.el --funcall org-publish-all
